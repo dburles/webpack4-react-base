@@ -1,4 +1,4 @@
-# Webpack2 React base
+# Webpack 3 React base
 
 `yarn`
 
