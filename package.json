@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --progress"
+    "start": "webpack-dev-server --progress",
+    "test": "node -e ''"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
