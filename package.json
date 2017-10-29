@@ -16,21 +16,21 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "butternut-webpack-plugin": "^0.1.0",
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^15.1.0",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.3.0",
     "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.1.0",
     "prettier": "^1.5.3",
-    "uglifyjs-webpack-plugin": "^0.4.6",
+    "uglifyjs-webpack-plugin": "^1.0.1",
     "webpack": "^3.4.1",
     "webpack-dev-server": "^2.6.1"
   },
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "recompose": "^0.23.5"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "recompose": "^0.26.0"
   },
   "babel": {
     "presets": ["env", "react"],
