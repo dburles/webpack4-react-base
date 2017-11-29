@@ -33,7 +33,7 @@ acorn@^4.0.3:
   version "4.0.11"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-4.0.11.tgz#edcda3bd937e7556410d42ed5860f67399c794c0"
 
-acorn@^5.0.0, acorn@^5.0.3:
+acorn@^5.0.0:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.0.3.tgz#c460df08491463f028ccb82eab3730bf01087b3d"
 
@@ -1211,23 +1211,6 @@ builtin-modules@^1.0.0, builtin-modules@^1.1.1:
 builtin-status-codes@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
-
-butternut-webpack-plugin@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/butternut-webpack-plugin/-/butternut-webpack-plugin-0.1.0.tgz#eefbebd3cd5635dc026260e9d2e8b46db0a93cc7"
-  dependencies:
-    butternut "^0.4.6"
-    webpack-sources "^1.0.1"
-
-butternut@^0.4.6:
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/butternut/-/butternut-0.4.6.tgz#1ee4e435965e924f7d245b9e5e6a614cb19915b6"
-  dependencies:
-    acorn "^5.0.3"
-    chalk "^1.1.3"
-    magic-string "^0.20.0"
-    minimist "^1.2.0"
-    sourcemap-codec "^1.3.1"
 
 bytes@2.3.0:
   version "2.3.0"
@@ -3086,12 +3069,6 @@ lru-cache@^4.0.1, lru-cache@^4.1.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
-magic-string@^0.20.0:
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.20.0.tgz#255f07e0b1459dc00d74636367e9200cbb5d529d"
-  dependencies:
-    vlq "^0.2.1"
-
 make-dir@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-1.0.0.tgz#97a011751e91dd87cfadef58832ebb04936de978"
@@ -4220,12 +4197,6 @@ source-map@^0.6.1, source-map@~0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
 
-sourcemap-codec@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/sourcemap-codec/-/sourcemap-codec-1.3.1.tgz#9ad6f9bdbd691931016e30939dbc868673323146"
-  dependencies:
-    vlq "^0.2.1"
-
 spdx-correct@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/spdx-correct/-/spdx-correct-1.0.2.tgz#4b3073d933ff51f3912f03ac5519498a4150db40"
@@ -4670,10 +4641,6 @@ verror@1.3.6:
   resolved "https://registry.yarnpkg.com/verror/-/verror-1.3.6.tgz#cff5df12946d297d2baaefaa2689e25be01c005c"
   dependencies:
     extsprintf "1.0.2"
-
-vlq@^0.2.1:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/vlq/-/vlq-0.2.2.tgz#e316d5257b40b86bb43cb8d5fea5d7f54d6b0ca1"
 
 vm-browserify@0.0.4:
   version "0.0.4"
