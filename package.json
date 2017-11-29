@@ -54,7 +54,7 @@
     },
     "extends": [
       "unobtrusive",
-      "unobtrusive-react"
+      "unobtrusive/react"
     ],
     "rules": {
       "func-names": "off",
