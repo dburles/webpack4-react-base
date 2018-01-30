@@ -1,7 +1,6 @@
 {
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "all",
   "[javascript]": {
     "editor.formatOnSave": true
   }
 }
+
