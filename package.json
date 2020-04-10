@@ -1,70 +1,55 @@
 {
-  "name": "webpack3-react-base",
+  "name": "webpack4-react-base",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "David Burles",
   "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "browserslist": [
+    "> 0.2%",
+    "not dead",
+    "not ie < 11",
+    "not op_mini all"
+  ],
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "start": "webpack-dev-server --progress --hot --config webpack.dev.js",
-    "test": "echo \"No tests specified\""
+    "start": "webpack-dev-server --progress --config webpack.dev.js",
+    "test": "npm run test:lint",
+    "test:lint": "eslint ."
   },
   "devDependencies": {
-    "@babel/cli": "^7.1.0",
-    "@babel/core": "^7.1.0",
-    "@babel/plugin-proposal-class-properties": "^7.1.0",
-    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
-    "@babel/preset-env": "^7.1.0",
-    "@babel/preset-react": "^7.0.0",
-    "babel-eslint": "^9.0.0",
-    "babel-loader": "^8.0.2",
-    "eslint": "^5.6.0",
-    "eslint-config-unobtrusive": "^1.2.2",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0",
-    "prettier": "^1.11.1",
-    "prop-types": "^15.6.1",
-    "uglifyjs-webpack-plugin": "^2.0.1",
-    "webpack": "^4.2.0",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.1",
-    "webpack-merge": "^4.1.2"
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@emotion/babel-plugin-jsx-pragmatic": "^0.1.5",
+    "@emotion/core": "^10.0.28",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-env": "^13.0.4",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-compat": "^3.5.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsdoc": "^22.1.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "prettier": "^2.0.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.0.0",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-hot-loader": "^4.1.2"
-  },
-  "babel": {
-    "presets": [
-      "@babel/env",
-      "@babel/preset-react"
-    ],
-    "plugins": [
-      "@babel/plugin-proposal-class-properties",
-      "@babel/plugin-proposal-object-rest-spread",
-      "react-hot-loader/babel"
-    ]
-  },
-  "eslintConfig": {
-    "env": {
-      "node": true,
-      "browser": true
-    },
-    "parser": "babel-eslint",
-    "extends": [
-      "unobtrusive",
-      "unobtrusive/react"
-    ],
-    "rules": {
-      "func-names": "off",
-      "react/jsx-filename-extension": "off"
-    }
-  },
-  "prettier": {
-    "singleQuote": true,
-    "trailingComma": "all"
+    "@theme-ui/presets": "^0.3.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "theme-ui": "^0.3.1"
   }
 }

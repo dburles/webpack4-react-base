@@ -1,7 +1,15 @@
-# Webpack 4 React base
+# webpack4-react-base
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/dburles/webpack4-react-base.svg)](https://greenkeeper.io/)
+An opinionated starter with [theme-ui](https://theme-ui.com/).
 
-`yarn`
+https://github.com/dburles/webpack4-react-base
 
-`yarn start`
+## Setup
+
+`npm i`
+
+`npm run dev`
+
+### License
+
+MIT

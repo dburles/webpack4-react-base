@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "env"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "arrow-body-style": [
+      "error",
+      "always"
+    ],
+    "curly": [
+      "error",
+      "all"
+    ],
+    "react/react-in-jsx-scope": "off"
+  }
+}
