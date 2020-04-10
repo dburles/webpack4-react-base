@@ -15,5 +15,9 @@
       "all"
     ],
     "react/react-in-jsx-scope": "off"
-  }
+  },
+  "ignorePatterns": [
+    "node_modules/",
+    "dist"
+  ]
 }
