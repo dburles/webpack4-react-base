@@ -10,7 +10,7 @@
     [
       "@emotion/babel-plugin-jsx-pragmatic",
       {
-        "module": "theme-ui",
+        "module": "mystical",
         "import": "jsx",
         "export": "jsx"
       }
